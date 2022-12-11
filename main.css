@@ -1,0 +1,189 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Black.ttf);
+}
+
+* {
+    font-family: Sofia;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(116, 67, 161);
+    padding-top: 15px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.nav-item:hover a {
+    color: darkgreen;
+}
+
+.banner {
+    background-color: rgb(116, 67, 161);
+    padding: 5% 0;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+.intro {
+    background-color: antiquewhite;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.cont-intro {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    background-color: rgb(116, 67, 161);
+    width: 100%;
+}
+.cards img {
+    height: 200px;
+    width: 24.84%;
+}
+
+@media (max-width:991px) {
+    .container {
+        padding: 10px;
+        width: 100%;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .cont-intro {
+        padding: 10px;
+    }
+    .cards img {
+        width: 32.99%;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+    .cont-intro {
+        padding: 5px;
+    }
+}
+
+@media (max-width:661px) {
+    .container {
+        padding: 10px;
+        width: 100%;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .intro {
+        padding: 10px;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+    }
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+    .cards img {
+        width: 100%;
+    }
+}
+
+.call-to-action {
+    padding: 40px 40px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 18px;
+}
+
+.call-to-action button {
+    background-color: forestgreen;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border: none;
+}
+
+.call-to-action button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.call-to-action button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+footer i:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
