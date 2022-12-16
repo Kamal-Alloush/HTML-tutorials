@@ -96,16 +96,16 @@ h3 img {
 }
 .bann-text {
     position: absolute;
+    text-align: center;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
-    position: fixed;
-    text-align: center;
 }
 
 .cards {
-    height: 400px;
+    width: 1200px;
+    margin:40px auto ;
     padding-top: 15px;
     background-color: white;
     color: rgb(38, 38, 73);
@@ -113,7 +113,16 @@ h3 img {
 }
 
 .cont-img {
-    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont-img img {
+     height: 250px;
+     width: 33.333333%;
+     padding: 15px;
+     border-radius: 25px;
+    
 }
 
 .intro {
