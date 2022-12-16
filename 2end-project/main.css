@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(38, 38, 73);
+    background-color: #2d3b52;
     padding: 20px;
     text-transform: uppercase;
 }
@@ -61,7 +61,7 @@ nav {
 
 .banner {
     height: 600px;
-    background-color: aqua;
+    background-color: #1cbb9b;
 }
 
 h3 {
@@ -108,7 +108,7 @@ h3 img {
     margin:40px auto ;
     padding-top: 15px;
     background-color: white;
-    color: rgb(38, 38, 73);
+    color: #2d3b52;
     text-align: center;
 }
 
@@ -129,7 +129,7 @@ h3 img {
 
     padding-top: 15px;
     text-align: center;
-    background-color: aqua;
+    background-color: #1cbb9b;
     color: white;
 }
 
@@ -143,10 +143,10 @@ h3 img {
 }
 
 .intro button {
-    background-color: aqua;
+    background-color: #1cbb9b;
     color: white;
     font-size: 16px;
-    padding: 10px 30px;
+    padding: 15px 15px;
     margin-top: 20px;
     margin-bottom: 40px;
     border: solid 1px white;
@@ -160,7 +160,7 @@ h3 img {
 }
 
 .intro button:hover {
-    background-color: rgb(38, 38, 73);
+    background-color: #2d3b52;
     color: black;
     cursor: pointer;
 }
@@ -240,5 +240,5 @@ input:focus~label,
 input:valid~label {
     top: -20px;
     font-size: 14px;
-    color: #5264AE;
+    color: #999;
 }
