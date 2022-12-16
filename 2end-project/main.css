@@ -7,8 +7,10 @@
 header {
     background-color: rgb(38, 38, 73);
     padding: 20px;
-
     text-transform: uppercase;
+}
+h1 {
+    font-size: 50px;
 }
 
 .cont-head {
@@ -87,10 +89,19 @@ h3 img {
 
 .cont-bann {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
+}
+.bann-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+    position: fixed;
+    text-align: center;
 }
 
 .cards {
