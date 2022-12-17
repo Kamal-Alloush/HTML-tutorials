@@ -1,5 +1,11 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Black.ttf);
+}
+
 * {
     box-sizing: border-box;
+    font-family: roboto;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +18,9 @@ header {
 
 h1 {
     font-size: 50px;
+    text-transform: uppercase;
 }
+.cards 
 
 .cont-head {
     width: 1000px;
@@ -23,15 +31,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .navbar a {
     display: inline-block;
     text-decoration: none;
     color: white;
-
-
 }
 
 .logo {
@@ -41,7 +46,6 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
-
 }
 
 .nav-item a {
@@ -49,7 +53,6 @@ nav {
     padding: 10px 15px;
     text-decoration: none;
     color: white;
-
 }
 
 .nav-item:hover {
@@ -57,12 +60,13 @@ nav {
 }
 
 .nav-item:hover a {
-    color: darkgreen;
+    color: #2d3b52;
 }
 
 .banner {
     height: 600px;
     background-color: #1cbb9b;
+    color: #FFF;
 }
 
 h3 {
@@ -76,7 +80,7 @@ h3:before,
 h3:after {
     content: "";
     flex: 1 1;
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #2d3b52;
     margin: auto;
 }
 
@@ -86,7 +90,6 @@ h3 img {
     border-radius: 50%;
     padding: 10px 15px;
 }
-
 
 .cont-bann {
     position: absolute;
@@ -125,7 +128,6 @@ h3 img {
     width: 33.333333%;
     padding: 15px;
     border-radius: 25px;
-
 }
 
 .intro {
@@ -186,6 +188,7 @@ h3 img {
     margin: 30px auto 0;
     display: block;
     background: #FFF;
+    color: #2d3b52;
     padding: 10px 50px 50px;
 }
 
@@ -263,7 +266,6 @@ footer {
     padding-top: 30px;
     background-color: #2d3b52;
     color: #FFF;
-
 }
 
 .media {
@@ -342,25 +344,32 @@ h4 {
         margin: auto;
     }
 
-.contact {
-    margin: 0 auto;
-    padding: 2px;
-    width: fit-content;
-}
+    .contact {
+        margin: 0 auto;
+        padding: 2px;
+        width: fit-content;
+    }
 
+    .media {
+        margin: 5px auto;
+        display: block;
+        width: fit-content;
+        padding: 5px;
+    }
 
+    .media div {
+        padding: 15px;
+    }
 }
 
 @media (max-width:661px) {
     .cont-head {
         width: fit-content;
-
     }
 
     .nav-links {
         flex-wrap: wrap;
         justify-content: center;
-
     }
 
     .bann-text {
@@ -377,7 +386,6 @@ h4 {
         width: 100%;
         justify-content: center;
         border-radius: 0;
-
     }
 
     .intro {
@@ -393,13 +401,31 @@ h4 {
         padding: auto;
         width: fit-content;
     }
+
     .contact {
-        margin: 0 auto;
-        padding: 2px;
+        margin: 10px auto;
+        padding: 0;
         width: fit-content;
         text-align: center;
     }
-    
-    
 
+    .contact input {
+        width: fit-content;
+    }
+
+    .contact textarea {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .media {
+        margin: 5px auto;
+        display: block;
+        width: fit-content;
+        padding: 5px 0;
+    }
+
+    .media div {
+        padding: 15px 0;
+    }
 }
