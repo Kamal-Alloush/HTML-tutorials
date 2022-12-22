@@ -96,6 +96,29 @@ h1{
     color: #fff;
 border-radius: 10px 10px;
 }
+.about {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.about-text {
+    padding: 20px;
+    margin: auto 0;
+    text-align: start;
+}
+.about-text a {
+    color: blue;
+    text-decoration: none;
+    border-bottom: solid 2px blue;
+}
+
 
 
 
