@@ -118,7 +118,29 @@ border-radius: 10px 10px;
     text-decoration: none;
     border-bottom: solid 2px blue;
 }
-
+.statistics {
+    
+    width: 100%;
+    display: flex;
+   padding: 100px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-image: url(photos/about-text2.jpg);
+   background-size: cover;
+    position: relative;
+    justify-content: center;
+    gap: 80px;
+}
+.statistics b {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.statistics h5 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
 
 
 
