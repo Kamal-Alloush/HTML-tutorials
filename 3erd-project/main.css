@@ -417,3 +417,31 @@ h2 {
     cursor: pointer;
     background-color: gray;
 }
+
+footer {
+    
+    margin: 20px;
+    padding: 20px;
+}
+
+.sections {
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.sections div {
+    max-width: 33.333333%;
+}
+
+.copyrights {
+    text-align: center;
+}
