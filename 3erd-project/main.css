@@ -257,12 +257,45 @@ h2 {
 }
 
 .opinines {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: gray;
+}
+
+.head {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+.opinines-box {
     width: 100%;
     max-width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.opinines-box img {
+    max-width: 100px;
+    margin-top: 40px;
+}
+.opinion {
+    max-width: 25%;
+}
+.dotes {
+    margin-top: 40px;
+    padding: 25px;
+    font-size: 18px;
+    color: dimgrey;
+    text-align: center;
+}
+.dotes i:hover{
+cursor: pointer;
+}
+
