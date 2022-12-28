@@ -382,3 +382,38 @@ h2 {
 .blog-box h4 {
     max-width: 200px;
 }
+
+.clenets {
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clenets-title {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.clients {
+    
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.clients span {
+    padding: 20px 30px;
+    border: 1px solid gray;
+}
+.clients span:hover {
+    cursor: pointer;
+    background-color: gray;
+}
