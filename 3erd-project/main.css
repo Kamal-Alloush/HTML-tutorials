@@ -144,7 +144,7 @@ h1 {
     text-align: center;
 }
 
-.statistics h5 {
+.statistics h2 {
     color: #fff;
     font-size: 35px;
     text-align: center;
@@ -171,6 +171,7 @@ h1 {
 h2 {
     color: #000;
     font-size: 25px;
+    padding: 20px 0;
 }
 
 .works-boxes {
@@ -205,7 +206,7 @@ h2 {
     width: 30%;
 }
 
-.services-boxes h4 {
+.services-boxes h2 {
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -221,7 +222,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.side-column span {
+.side-column div {
     width: 45%;
     margin: 10px;
     padding: 25px;
@@ -272,7 +273,8 @@ h2 {
 .head {
     max-width: 800px;
     width: 100%;
-    margin: auto;
+    margin: auto ;
+    padding-top: 40px;
 }
 
 .opinines-box {
@@ -305,6 +307,7 @@ h2 {
     color: dimgrey;
     text-align: center;
 }
+.dotes > i:first-of-type{color:blue;}
 
 .dotes i:hover {
     cursor: pointer;
@@ -351,6 +354,7 @@ h2 {
     justify-content: space-between;
     margin: auto;
 }
+
 .head-title b {
     max-width: 800px;
 }
@@ -359,28 +363,33 @@ h2 {
     max-width: 1200px;
     width: 100%;
     margin: 40px auto;
-    
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .title-blog img {
     max-width: 300px;
 }
 
 .blog-box {
     max-width: 300px;
-    
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .blog-box b {
     max-width: 80px;
     text-align: end;
 }
-.blog-box h4 {
+
+.blog-box h2 {
     max-width: 200px;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 .clenets {
@@ -401,25 +410,28 @@ h2 {
     justify-content: space-between;
     margin: auto;
 }
+
 .clients {
-    
+
     margin: 40px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
+
 .clients span {
     padding: 20px 30px;
     border: 1px solid gray;
 }
+
 .clients span:hover {
     cursor: pointer;
     background-color: gray;
 }
 
 footer {
-    
+
     margin: 20px;
     padding: 20px;
 }
@@ -433,9 +445,9 @@ footer {
     margin-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sections div {
