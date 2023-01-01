@@ -1,7 +1,12 @@
+@font-face {
+    font-family: roboto;
+    src: url(assets/fonts/Roboto-Black.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto;
 }
 
 header {
@@ -94,8 +99,8 @@ h1 {
 .virtical-text {
     writing-mode: vertical-rl;
     position: absolute;
-    right: -20px;
-    top: 50px;
+    right: -5px;
+    top: 200px;
 }
 
 .banner-text button {
@@ -179,6 +184,7 @@ h2 {
     color: #0d0d0d;
     font-size: 25px;
     padding: 20px 0;
+    text-transform: uppercase;
 }
 
 .works-boxes {
@@ -281,8 +287,8 @@ h2 {
 }
 
 .opinines {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #fafafa;
 }
 .opinines b {
@@ -406,6 +412,8 @@ h2 {
 .blog-box b {
     max-width: 80px;
     text-align: end;
+    font-size: 13px;
+    color: #727272;
 }
 
 .blog-box h2 {
@@ -481,18 +489,32 @@ footer h2 {
 text-align: center;
 }
 .media i {
-    font-size: 18px;
-    padding: 10px;
-    margin: auto;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    padding-top: 10px;
+    
+    border: 2px solid #727272;
     border-radius: 100%;
-    background-color: #727272;
+    align-items: center;
+    justify-content: center;
     color: #fff;
+    background-color: #727272;
 }
 
 
 .sections li {
-    list-style: symbols();
-}
+    
+        list-style-type: "→";
+      }
+      .sections li a {
+        text-decoration: none;
+        color: #727272;
+      }   
+      .sections li a:hover {
+        color: #0034c8;
+        cursor: pointer;
+      }
 
 .sections div {
     max-width: 33.333333%;
@@ -504,7 +526,406 @@ text-align: center;
     display: block;
 }
 
-
 .copyrights {
     text-align: center;
+}
+
+
+@media (max-width: 1199px) {
+    .navbar {
+        padding: 5px;
+        width: fit-content;
+    }
+
+    .banner {
+        display: block;
+        width: fit-content;
+        padding: 5px;
+    }
+    .virtical-text {
+        position: static;
+        writing-mode: horizontal-tb;
+        margin: 5px auto;
+    }
+    .banner-text button {
+        margin: 20px 50%;
+        width: 150px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .about {
+        display: block;
+        width: fit-content;
+    }
+    .about img {
+        width: 100%;
+    }
+    .statistics {
+        width: fit-content;
+    }
+    .works {
+        width: fit-content;
+    }
+    .services-boxes {
+        width: fit-content;
+    }
+    .featured {
+        width: fit-content;
+    }
+   .opinines {
+    width: fit-content;
+   }
+   .head {
+    display: block;
+   }
+ .sections {
+    width: fit-content;
+ }
+.sections div {
+    max-width: 50%;
+}
+
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        padding: 5px;
+        width: fit-content;
+    }
+
+    .banner {
+        display: block;
+        width: fit-content;
+        padding: 5px;
+    }
+    .virtical-text {
+        position: static;
+        writing-mode: horizontal-tb;
+        margin: 5px auto;
+        
+    }
+    .banner-text button {
+        margin: 20px 50%;
+        width: 150px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .about {
+        display: block;
+        width: fit-content;
+    }
+    .about img {
+        width: 100%;
+    }
+    .statistics {
+        width: fit-content;
+    }
+    .works {
+        width: fit-content;
+    }
+    .works-title {
+        width: 100%;
+        display: block;
+    }
+    .works-boxes {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+    .works-boxes div {
+        margin: 10px auto;
+    }
+    .services-boxes {
+        width: 100%;
+        display: block;
+    }
+    .main-column {
+        width: 100%;
+    }
+    .side-column {
+        width: 100%;
+    }
+    .featured {
+        display: block;
+        width: 100%;
+    }
+   
+    .card-img {
+        width: 33.333333%;
+    }
+    .opinines {
+        width: fit-content;
+       }
+       .opinines-box {
+        display: block;
+       }
+     .opinion{
+        max-width: 100%;
+        margin: 5px auto;
+       }
+      
+       .team {
+        width: fit-content;
+       }
+       .team-box div{
+       width: 40%;
+       }
+       .head-title {
+        display: block;
+        max-width: 100%;
+       }
+       .clenets-title {
+        display: block;
+        max-width: 100%;
+       }
+       .sections {
+        width: fit-content;
+     }
+    .sections div {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        display: block;
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links {
+        display: block;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .banner {
+        display: block;
+        width: fit-content;
+        padding: 5px;
+    }
+    .virtical-text {
+        position: static;
+        writing-mode: horizontal-tb;
+        margin: 5px auto;
+    }
+    .banner-text button {
+        margin: 20px 50%;
+    }
+    .banner-text button {
+        margin: 20px 50%;
+        width: 150px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .about {
+        display: block;
+        width: fit-content;
+    }
+    .about img {
+        width: 100%;
+    }
+    .statistics {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .statistics div {
+        width: 100%;
+    }
+    .works {
+        width: 100%;
+    }
+    .works-title {
+        width: 100%;
+        display: block;
+    }
+    .works-boxes {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+    .works-boxes div {
+        margin: 10px auto;
+    }
+
+    .services-boxes {
+        width: 100%;
+        display: block;
+    }
+    .main-column {
+        width: 100%;
+    }
+    .side-column {
+        width: 100%;
+    }
+    .featured {
+        display: block;
+        width: 100%;
+    }
+    
+    .card-img {
+        width: 50%;
+    }
+    .opinines {
+        width: fit-content;
+       }
+       .opinines-box {
+        display: block;
+       }
+       .opinion{
+        max-width: 100%;
+        margin: 5px auto;
+       }
+       .team {
+        width: fit-content;
+       }
+       .team-box {
+        display: block;
+        width: 100%;
+        
+       }
+       .team-box div {
+       width: 100%;
+       margin: 5PX auto;
+       text-align: center;
+       }
+       .head-title {
+        display: block;
+        max-width: 100%;
+       }
+       .clenets-title {
+        display: block;
+        max-width: 100%;
+       }
+       .sections {
+        width: fit-content;
+        display: block;
+     }
+    .sections div {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        text-align: center;
+        display: block;
+        padding: 5px;
+        width: 100%;
+    }
+    .nav-links {
+        display: block;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .banner {
+        display: block;
+        width: fit-content;
+        padding: 5px;
+    }
+    .virtical-text {
+        position: static;
+        writing-mode: horizontal-tb;
+        margin: 5px auto;
+    }
+    .banner-text button {
+        margin: 20px 50%;
+        width: 150px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .about {
+        display: block;
+        width: fit-content;
+    }
+    .about img {
+        width: 100%;
+    }
+    .statistics {
+        width: 100%;
+        display: block;
+        text-align: center;
+        
+    }
+    .statistics div {
+        width: 100%;
+    }
+    .works {
+        width: 100%;
+    }
+    .works-title {
+        width: 100%;
+        display: block;
+    }
+    .works-boxes {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+    .works-boxes div {
+        margin: 10px auto;
+    }
+
+    .services-boxes {
+        width: 100%;
+        display: block;
+    }
+    .main-column {
+        width: 100%;
+    }
+    .side-column {
+        width: 100%;
+    }
+    .featured {
+        display: block;
+        width: 100%;
+    }
+  
+    .card-img {
+        width: 100%;
+    }
+    .opinines {
+        width: fit-content;
+       }
+       .opinines-box {
+        display: block;
+       }
+       .opinion{
+        max-width: 100%;
+        margin: 5px auto;
+       }
+       .team {
+        width: fit-content;
+       }
+       .team-box {
+        display: block;
+        width: 100%;
+        
+       }
+       .team-box div{
+       width: 100%;
+       margin: 5PX auto;
+       text-align: center;
+       }
+       .head-title {
+        display: block;
+        max-width: 100%;
+       }
+       .clenets-title {
+        display: block;
+        max-width: 100%;
+       }
+       .sections {
+        width: fit-content;
+        display: block;
+     }
+    .sections div {
+        max-width: 100%;
+    }
 }
