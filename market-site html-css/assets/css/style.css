@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     }
     
     .navbar-brand{
@@ -64,7 +72,7 @@
         }
 
 .display-1{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
     color: white;
     text-transform: capitalize;
     
@@ -111,7 +119,8 @@ height: 40px;
 }
 
 .trading-img:hover{
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -152,4 +161,7 @@ font-weight: bold;
 }
 .brand i:hover{
     color: #d63384;
+}
+ol, ul {
+    padding-left: 0;
 }
