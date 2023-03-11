@@ -138,9 +138,15 @@ height: 40px;
 
 
 .footer-btn input{
-background-color: black;
-color: white;
+    background-color: white;
+    color: black;
 font-weight: bold;
+}
+
+.footer-btn input:hover,
+.footer-btn input:active{
+box-shadow: none;
+background-color: aliceblue;
 }
 .footer-btn button{
     background-color: white;
