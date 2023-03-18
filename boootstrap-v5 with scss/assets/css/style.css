@@ -10884,12 +10884,11 @@ textarea.form-control-lg {
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
-
-li {
+.menu li {
   padding: 0 0.7rem;
 }
-li a {
-  color: #fff !important;
+.menu li a {
+  color: #fff;
   text-transform: capitalize;
   font-weight: 800;
 }
@@ -11139,8 +11138,6 @@ li a {
 .company-list li {
   margin-bottom: 0.5rem;
   text-decoration: none;
-  font-weight: 300;
-  padding: 0;
 }
 .company-list li a {
   color: #fff;
