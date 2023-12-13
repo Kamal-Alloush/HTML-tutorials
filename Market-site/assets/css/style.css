@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    .navbar-brand{
+    font-size: 30px;
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    }
+    .navbar-brand:hover{
+        color: black;
+    }
+    
+    .nav-link{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Alegreya', serif;
+    text-transform: uppercase;
+    }
+
+    .nav-link:hover{
+        color: #6f002d;
+    }
+    
+    .search{
+        height: 40px;
+      width: 80%;
+      border-radius: 60px;
+      outline: none;
+      margin-right: -35px;
+      border: 2px solid #d63384;
+
+    }
+    .btn-0{
+        height: 40px;
+        width: 40%;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        background-color: #d63384;
+        color: white;
+        font-weight: 700;
+    }
+
+    .intro{
+        padding: 20px ;
+        background: #d63384;
+        }
+
+        .intro--2{
+            padding: 20px ;
+            background: #3bb8e6;
+        }
+
+.display-1{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+.display-2{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-transform: capitalize;
+}
+.display-3{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+.btn-rounded{
+background-color: #d63384;
+color: white;
+font-weight: 500;
+text-align: center;
+border: none;
+width: 200px;
+height: 40px;
+}
+
+
+.btn-rounded:hover{
+    background-color: #6f002d;
+}
+
+.back{
+    background-color: rgba(191, 209, 24, 0.2);
+    background-size: 40px;
+}
+
+.section-title p{
+    color: red;
+    text-transform: capitalize;
+}
+
+.trading-img:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.society-img{
+    max-height: 100%;
+    width: 100%;
+}
+.society-img img{
+    width: 100%;
+}
+
+
+
+
+.footer-btn input{
+background-color: black;
+color: white;
+font-weight: bold;
+}
+.footer-btn button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+    }
+.footer li{
+    list-style-type: none;
+}
+.footer li:hover{
+    color: #d63384;
+}
+
+.brand{
+    font-size: 36px;
+    color: white;
+}
+.brand i:hover{
+    color: #d63384;
+}

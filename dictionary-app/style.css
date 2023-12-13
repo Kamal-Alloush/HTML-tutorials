@@ -1,0 +1,137 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body{
+        background-color: #ae9cff;
+       
+}
+
+.container{
+        position: absolute;
+        width: 90vmin;
+        padding: 80px 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aliceblue;
+        border-radius: 5px;
+}
+
+.search-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+}
+
+#search-input{
+        width: 60%;
+        background-color: aliceblue;
+        color: #1f194c;
+        padding: 6px 12px;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid #ae9cff;
+        font-size: 18px;
+}
+
+#search-btn{
+        width: 30%;
+        color: aliceblue;
+        background-color: #ae9cff;
+        padding: 6px 12px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-size: 18px;
+}
+
+#search-btn:hover {
+        background-color: #1f194c;
+        cursor: pointer;
+}
+
+#voice-btn{
+        color: #1f194c;
+        background-color: aliceblue;
+        padding: 6px 12px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        
+}
+
+i:hover{
+        cursor: pointer;
+}
+
+.details{
+        display: flex;
+        flex-wrap: nowrap;
+         margin-top: 15px;
+         gap: 10px;
+         color: #b3b6d4;
+}
+
+.input-box{
+        margin-top: 30px;
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: baseline;
+}
+.word-input {
+        display: flex;
+        justify-content: space-between;
+}
+.word-input h3 {
+        font-size: 36px;
+        color: #1f194c;
+}
+
+.word-input small {
+        font-size: 12px;
+        color: grey;
+}
+
+.result-box{
+        margin-top: 30px;
+        display: block;
+}
+
+.word-search-result{
+        font-size: 22px;
+        color: #ae9cff;
+}
+
+.example-result{
+        margin-top: 15px;
+        padding-left: 20px;
+        font-size: 22px;
+        color: #ae9cff;
+        border-left: 3px solid #ae9cff;
+}
+
+.error{
+        color: #1f194c;
+        margin-top: 80px;
+        text-align: center;
+}
+
+
+@media screen and (max-width:400px){
+.search-box{
+        display: block;
+}
+
+#search-input{
+        width: 100%;
+}
+
+#search-btn{
+        margin-top: 20px;
+        width: 100%;
+}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/splide.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Search Page</title>
+  </head>
+  <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 Navbar                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Movie Searcher</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Call US</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              Main-Section                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section id="auto-slider" class="auto-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 box-slied"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="main" class="main">
+      <div class="container-fluid main-content">
+        <div class="row">
+          <div class="col-8 m-4 mx-auto">
+            <div class="input-group flex-nowrap">
+              <form action="#" id="search-form" class="input-group flex-nowrap">
+                <input
+                  type="text"
+                  id="search-button"
+                  class="form-control"
+                  placeholder="Type Name"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+                <div class="resultBox"></div>
+                <button
+                  type="submit"
+                  class="input-group-text w-auto"
+                  id="addon-wrapping"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row" id="searchResults"></div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row m-5">
+        <div class="col-12 mx-auto">
+          <section class="splide" aria-label="Splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">Slide 01</li>
+                <li class="splide__slide">Slide 02</li>
+                <li class="splide__slide">Slide 03</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/splide.min.js"></script>
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>

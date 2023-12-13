@@ -518,7 +518,7 @@ img {
   transform: rotate(-180deg);
 }
 
-/* -------------------------------- potrfolio ------------------------------- */
+/* -------------------------------- portfolio ------------------------------- */
 
 .portfolio__container {
   overflow: initial;
@@ -1056,3 +1056,4 @@ img {
     margin-left: auto;
   }
 }
+ 
