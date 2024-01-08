@@ -48,26 +48,6 @@ const skillsContent = document.getElementsByClassName('skills__content'),
         el.addEventListener('click', toggleSkills)
       })
 
-/*==================== QUALIFICATION TABS ====================*/
-const tabs =document.querySelectorAll ('[data-target]'),
-        tabContents = document.querySelectorAll ('[data-content]')
-        tabs.forEach( tab=>{
-            tab.addEventListener('click', () =>{
-                const target = document.querySelector(tab.dataset.target)
-                tabContents.forEach(tabContent =>{
-                    tabContent.classList.remove('qualifications__active')
-                })
-                target.classList.add('qualifications__active')
-
-                tabs.forEach(tab =>{
-                    tab.classList.remove('qualifications__active')
-                })
-                tab.classList.add('qualifications__active')
-            })
-        })
-
-
-
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper('.portfolio__container', {
     cssMode: true,

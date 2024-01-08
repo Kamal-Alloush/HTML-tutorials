@@ -51,6 +51,7 @@ img {
 
 .text-brand {
   color: var(--color-brand);
+  display: block;
 }
 .full-height {
   min-height: 100vh;
@@ -157,8 +158,10 @@ img {
 
 .link-custom {
   font-weight: 700;
+  font-size: 32px;
   position: relative;
 }
+
 
 .link-custom::after {
   content: "";
