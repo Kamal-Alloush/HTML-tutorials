@@ -8,7 +8,7 @@
 .navbar-brand {
   font-size: 30px;
   color: black;
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   text-transform: capitalize;
 }
 .navbar-brand:hover {
@@ -19,7 +19,7 @@
   color: black;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Alegreya", serif;
+  font-family: 'Alegreya', serif;
   text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .intro {
-  background: url(/assets/photos/intro-photo.jpg) no-repeat;
+  background-image: url('../photos/intro-photo.jpg');
   background-size: cover;
   padding: 30px 30px;
   background-position: 50% 50%;
@@ -61,7 +61,7 @@
 }
 
 .intro--2 {
-  background: url(/assets/photos/intro-photo-3.jpg) no-repeat;
+  background-image: url('assets/photos/intro-photo-3.jpg');
   background-size: cover;
   padding: 30px 30px;
   background-position: 50% 50%;
@@ -69,22 +69,22 @@
 }
 
 .display-1 {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   color: white;
   text-transform: capitalize;
 }
 .display-2 {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   color: black;
   text-transform: capitalize;
 }
 .display-3 {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   color: white;
   text-transform: capitalize;
 }
 .display-5 {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   color: white;
   text-transform: capitalize;
 }
